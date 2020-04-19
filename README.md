@@ -1,10 +1,33 @@
 # compress-img-pdf
+
 Uploap images .jpg, jpeg, png compress and export pdf file using Angular
 
-For img compress use
+## Installation img compress
 
-npm i ngx-image-compress
+Use the package manager [npm ngx-image-compress](https://www.npmjs.com/package/ngx-image-compress) to install ngx-image-compress.
 
-For pdf export use
+```bash
+npm install ngx-image-compress
+```
+## For pdf export
 
-pdfMake librery
+Use the library [pdfmake](http://pdfmake.org/) 
+
+```bash
+npm install pdfmake
+```
+
+## Usage
+
+```angular
+import {NgxImageCompressService} from 'ngx-image-compress';
+
+@NgModule({
+  declarations: [...
+  ],
+  imports: [...
+  ],
+  providers: [NgxImageCompressService]
+})
+export class AppModule { }
+```
